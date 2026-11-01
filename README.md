@@ -27,3 +27,33 @@
 ```bash
 git clone [https://github.com/Almanzajoaquin/PC-PULSE.git](https://github.com/Almanzajoaquin/PC-PULSE.git)
 cd PC-PULSE
+
+```
+
+2. Double-click **`run.bat`** (auto-elevates to Admin and installs dependencies), or run manually in terminal:
+
+```bash
+pip install -r requirements.txt
+python main.py
+
+```
+
+## 🛠️ Built With
+
+* [psutil](https://github.com/giampaolo/psutil) — System and process utilities
+* [rich](https://github.com/Textualize/rich) — Terminal UI and tables
+* Native Windows `ctypes` (`kernel32` & `psapi`)
+
+## 👤 Author & Support
+
+Developed by **[Joaquin Almanza (@Almanzajoaquin)](https://github.com/Almanzajoaquin)**.
+
+If this tool helped free up RAM or boost your FPS, please consider giving the repository a **⭐ Star** and following my profile!
+
+## 📄 License
+
+Distributed under the **MIT License**. Free to use, modify, and distribute.
+
+```
+
+```
